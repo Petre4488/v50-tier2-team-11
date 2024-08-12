@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# 🍽️ All-in-One Restaurant Ordering App 🍕🍔🍜
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to the All-in-One Restaurant Ordering App! This application allows users to browse menus from multiple restaurants and add items to a single consolidated order. The app is designed to offer a seamless and intuitive user experience, ensuring accessibility across various devices.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### 📋 Menu Fetching and Display
+- **API Integration:** Fetches menu data from a provided API.
+- **Menu Categories:** Supports filtering menu items across various categories such as BBQs, breads, burgers, chocolates, desserts, drinks, fried chicken, ice cream, pizzas, porks, sandwiches, sausages, and steaks.
+- **Menu Display:** Each menu item is displayed with an image, name, price, restaurant name, and country of origin.
+- **Interactive Map:** Displays restaurants on an interactive map. Clicking a restaurant on the map dynamically fetches and displays its specific menu.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🛒 Order Management
+- **Order Creation:** Users can add items to a single order from multiple restaurants.
+- **Order Summary:** Displays a summary of the current order, including item names, prices, and total cost.
+- **Item Removal:** Users can remove items from the order before finalizing it.
+- **Local Storage:** Utilizes browser local storage to store order data efficiently.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 🖥️ User Interface and Experience
+- **Seamless Navigation:** Designed for a seamless user experience, guiding users through the menu browsing and ordering process.
+- **Responsive Design:** Ensures the app is accessible and functional across various devices and screen sizes.
 
-### `npm test`
+## 🚀 Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Frontend Framework:** React
+- **Mapping API:** Openstreetsmap
+- **Local Storage:** Utilized for storing order and credit data.
